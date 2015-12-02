@@ -11,7 +11,20 @@
 			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 			<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
 		<title>Y E N 1</title>
-
+<script type="text/javascript">
+$(function() {
+    $("#header img, #service img, #portfolio img").each(function() {
+        var oImgWidth = $(this).width();
+        var oImgHeight = $(this).height();
+        $(this).css({
+            'max-width':oImgWidth+'px',
+            'max-height':oImgHeight+'px',
+            'width':'100%',
+            'height':'100%'
+        });
+    });
+});
+</script>
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/ionicons.min.css">
 		<link rel="stylesheet" href="assets/css/owl.carousel.css">
@@ -63,7 +76,7 @@
 			<div class="header-table">
 				<div class="header-wrapper">
 					<h1 class="header-title">
-						Joon&Yeni agency
+						YEN1 Agency
 					</h1>
 					<p class="header-subtitle">
 						since 2015
